@@ -68,8 +68,8 @@ Ikuti langkah ini satu per satu di terminal (Command Prompt / PowerShell / Termi
 Jika kamu memiliki file zip, ekstrak dahulu. Jika menggunakan Git, jalankan:
 
 ```bash
-git clone https://github.com/username-kamu/fishing-app.git
-cd fishing-app
+git clone https://github.com/DionAnugrah/fishing.git
+cd fishing
 ```
 
 ### 2\. Install Pustaka (Dependencies)
