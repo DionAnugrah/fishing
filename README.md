@@ -165,7 +165,8 @@ Gunakan akun berikut yang sudah dibuatkan otomatis oleh sistem untuk mencoba apl
 
   * **Gambar Produk:** Jika gambar produk tidak muncul (broken image), pastikan kamu sudah menaruh file gambar `.jpg` di dalam folder `public/images/`.
   * **Eror Database:** Jika muncul error "Connection Refused", pastikan aplikasi PostgreSQL kamu sudah berjalan (Service Active).
+  * **Migrasi Error:** Jika error saat ingi melakukan migrasi ` could not find driver`. Masalahnya komputer kamu belum diizinkan connect ke database PostgreSQL, jadi solusinya buka file `php.ini` di folder instalasi PHP (biasanya di dalam folder XAMPP / Laragon), cari tulisan `;extension=pdo_pgsql` lalu hapus titik koma (`;`) di depannya supaya aktif,Kalau ada `extension=pgsql`, hapus juga titik komanya., kemudian simpan filenya dan restart server biar Laravel bisa jalan normal lagi.
 
 -----
 
-*Dibuat dengan ❤️ menggunakan Laravel & PostgreSQL.*
+*Dibuat dengan Laravel 12 & PostgreSQL.*
